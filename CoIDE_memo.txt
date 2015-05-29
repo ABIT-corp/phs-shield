@@ -1,0 +1,24 @@
+[java.lang.OutOfMemoryERROR: PermGen space]ëŒçÙ
+
+
+CoIDE.ini
+
+--launcher.XXMaxPermSize
+
+256M
+
+-vmargs
+
+-Xms60m
+
+-Xmx512m
+
+-XX:+UseConcMarkSweepGC
+
+-XX:+CMSClassUnloadingEnabled
+
+
+
+
+
+
